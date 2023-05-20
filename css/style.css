@@ -43,9 +43,7 @@ body{
     color: var(--tex-color);
 }
 
-
-
-header{
+nav{
     
     width: 100%;
     top: 0;
@@ -132,10 +130,12 @@ header{
     top: 0em;
 }
 
+
+
 .home-text h1{
     font-size: var(--h1-font);
     line-height: 1.2;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
 }
 
 .home-text h5{
@@ -175,6 +175,7 @@ header{
 }
 
 
+
 .btn{
     border-radius: 15px;
     display: inline-block;
@@ -204,6 +205,8 @@ header{
     align-items: center;
     gap: 2rem;
 }
+
+
 
 .main li img{
     width: 50px;
@@ -424,3 +427,4 @@ footer{
 .bottom .center a:hover{
     text-decoration: underline;
 }
+
